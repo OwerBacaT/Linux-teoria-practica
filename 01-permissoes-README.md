@@ -1,7 +1,7 @@
 # 01 - Permissões e Controle de Acesso em Linux
 
 ## Objetivo
-Simular um cenário realista de auditoria de permissões de arquivos em um servidor Linux, identificando e corrigindo configurações inseguras — uma das falhas mais comuns encontradas em pentests e auditorias de hardening.
+Simular um cenário realista de auditoria de permissões de arquivos em um servidor Linux, identificando e corrigindo configurações inseguras, uma das falhas mais comuns encontradas em pentests e auditorias de hardening.
 
 ## Ambiente
 - WSL com CentOS
