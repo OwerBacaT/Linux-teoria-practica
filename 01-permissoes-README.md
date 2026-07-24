@@ -70,7 +70,7 @@ find ~/projeto_seguranca -type f -perm 777
 
 - Notação simbólica (`rwx`) vs numérica (`chmod 750`, por exemplo) e como converter uma na outra
 - Diferença entre `-perm -MODO` (pelo menos essas permissões), `-perm /MODO` (qualquer uma) e `-perm MODO` (exatamente essas)
-- `;` executa comandos em sequência independente do resultado; `&&` só executa o próximo se o anterior teve sucesso — importante em scripts de segurança para não mascarar falhas
+- `;` executa comandos em sequência independente do resultado; `&&` só executa o próximo se o anterior teve sucesso importante em scripts de segurança para não mascarar falhas
 - Bits de execução desnecessários (`x`) em arquivos que não são scripts "poluem" varreduras de auditoria (ex: CIS Benchmark) e podem mascarar arquivos maliciosos reais
 
 ## Próximos passos
